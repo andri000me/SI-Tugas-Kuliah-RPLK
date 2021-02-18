@@ -1,6 +1,6 @@
 <?php
-//defined('BASEPATH') OR exit('No direct script access allowed');
-?><!--<!DOCTYPE html>
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -57,33 +57,8 @@ p {
 </head>
 <body>
 	<div id="container">
-		<h1><?php //echo $heading; ?></h1>
-		<?php //echo $message; ?>
+		<h1><?php echo $heading; ?></h1>
+		<?php echo $message; ?>
 	</div>
-</body>
-</html>-->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>404 Page Not Found</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<style type="text/css">
-</style>
-</head>
-<body>
-	<div class="container">
-		<div class="row"  style="padding-top:10%;" >
-			<div class="well center">
-				<h1><font face="Tahoma" color="red"><?php echo $heading; ?></font></small></h1>
-				<br />
-				<p>Maaf Page yang anda cari tidak ada Silahkan kembali</p>
-				<p><b>Atau kembali ke menu home dengan menekan tombol home</b></p>
-				<a href="http://localhost/uasproweb/" class="btn btn-large btn-info"><span class="glyphicon glyphicon-home"></span> Take Me Home</a>
-				</div>
-				<br>
-		</div>
-	</div> 
 </body>
 </html>
