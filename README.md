@@ -1,4 +1,3 @@
-# ci-restserver
-Check the recent version at https://github.com/chriskacerguis/codeigniter-restserver
+SI TUGAS KULIAH RPLK
 
-My alternate version https://github.com/ardisaurus/old-rest-ci
+Sistem Informasi ini  merupakan SI untuk manajemen tugas kuliah. Pada 
