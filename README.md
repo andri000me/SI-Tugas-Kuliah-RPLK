@@ -12,3 +12,10 @@ FITUR
 - Fitur Edit, untuk melakukan update pada tugas yang telah dibuat, misalkan jika kita ingin mengganti deadline
 - Fitur Delete, untuk menghapus list tugas
 - Terdapat perbedaan warna tabel pada tugas yang telah selesai, dan lainnya.
+
+PREVIEW
+![alt text](https://github.com/zal-ghiffari/SI-Tugas-Kuliah-RPLK/blob/master/screenshot1.jpg)
+![alt text](https://github.com/zal-ghiffari/SI-Tugas-Kuliah-RPLK/blob/master/screenshot2.jpg)
+![alt text](https://github.com/zal-ghiffari/SI-Tugas-Kuliah-RPLK/blob/master/screenshot3.jpg)
+![alt text](https://github.com/zal-ghiffari/SI-Tugas-Kuliah-RPLK/blob/master/screenshot4.jpg)
+![alt text](https://github.com/zal-ghiffari/SI-Tugas-Kuliah-RPLK/blob/master/screenshot5.jpg)
