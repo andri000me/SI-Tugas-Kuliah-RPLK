@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 17, 2021 at 06:57 PM
+-- Generation Time: Feb 18, 2021 at 04:08 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.2.22
 
@@ -21,6 +21,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `uasproweb`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pemakai`
+--
+
+CREATE TABLE `pemakai` (
+  `id_user` int(5) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `nama_lengkap` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `pemakai`
+--
+
+INSERT INTO `pemakai` (`id_user`, `username`, `password`, `nama_lengkap`) VALUES
+(1, 'zal', '8ca8d2bb791521d8a68025c5af9026993c435399', 'M Novrizal');
 
 -- --------------------------------------------------------
 
@@ -53,6 +73,12 @@ INSERT INTO `tugas` (`id`, `matakul`, `judul`, `deskripsi`, `deadline`, `selesai
 --
 
 --
+-- Indexes for table `pemakai`
+--
+ALTER TABLE `pemakai`
+  ADD PRIMARY KEY (`id_user`);
+
+--
 -- Indexes for table `tugas`
 --
 ALTER TABLE `tugas`
@@ -61,6 +87,12 @@ ALTER TABLE `tugas`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `pemakai`
+--
+ALTER TABLE `pemakai`
+  MODIFY `id_user` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tugas`

@@ -18,7 +18,7 @@
 
     <br/>
 
-    <div class="alert alert-info">Ditemukan data dalam jumlah <strong><?php echo $num_rows ?></strong></div>
+    <div class="alert alert-info">Ditemukan tugas dalam jumlah <strong><?php echo $num_rows ?></strong></div>
     <table class="table table-bordered">
         <tr>
             <th>ID</th><th>Mata Kuliah</th><th>Tugas</th><th>Deadline</th>
@@ -60,6 +60,10 @@
         }
         ?>
     </table>
+
+    <div class="col-md-4">
+        <a href="<?php echo site_url('/cetak') ?>" class="btn btn-primary">Download PDF</a>
+    </div>
 
     <br>
     <h4>Keterangan:</h4>
