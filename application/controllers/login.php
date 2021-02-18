@@ -18,9 +18,9 @@ class Login extends CI_Controller{
 		$password = $this->input->post('password');
 		$where = array(
 			'username' => $username,
-			'password' => sha1($password)
+			'password' => md5($password)
 			);
-		$cek = $this->m_login->cek_login("pemakai",$where)->num_rows();
+		$cek = $this->m_login->cek_login("user",$where)->num_rows();
 		if($cek > 0){
 
 			$data_session = array(
@@ -30,8 +30,6 @@ class Login extends CI_Controller{
 
 			$this->session->set_userdata($data_session);
 
-			redirect('/welcome');
-
 		}else{
 			echo "Username dan password salah !";
 		}
@@ -39,6 +37,5 @@ class Login extends CI_Controller{
 
 	function logout(){
 		$this->session->sess_destroy();
-		redirect('/login');
 	}
 }
