@@ -12,4 +12,3 @@ FITUR
 - Fitur Edit, untuk melakukan update pada tugas yang telah dibuat, misalkan jika kita ingin mengganti deadline
 - Fitur Delete, untuk menghapus list tugas
 - Terdapat perbedaan warna tabel pada tugas yang telah selesai, dan lainnya.
-
